@@ -1,4 +1,4 @@
-# Advanced Siamese Network for One-Shot Face Verification
+# Siamese Network for One-Shot Face Verification
 
 ![Project Banner](https://user-images.githubusercontent.com/10928923/209424610-41e7df74-a745-4767-876a-3729862955f1.png) <!-- Placeholder banner -->
 
