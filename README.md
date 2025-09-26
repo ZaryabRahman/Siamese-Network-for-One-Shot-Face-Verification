@@ -1,6 +1,6 @@
 # Siamese Network for One-Shot Face Verification
 
-![Architecure](/data/a.webp) 
+![Architecure](/data/aa.webp) 
 
 This repository contains a comprehensive, highly-documented, and modular implementation of a Siamese Network in PyTorch for one-shot face verification. The project is designed to be a premier educational resource, demonstrating best practices in deep learning model development, from data handling to evaluation and inference.
 
