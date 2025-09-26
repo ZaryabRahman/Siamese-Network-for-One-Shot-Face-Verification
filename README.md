@@ -102,13 +102,13 @@ The script will output the computed distance and a prediction of whether the ima
 ## Results
 
 
-**(Placeholder for Loss History Plot)**
-![Loss History](https://i.imgur.com/3i4u5rK.png)
+**(Loss History Plot)**
+![Loss History](/data/loss_history.png)
 
-**(Placeholder for ROC Curve Plot)**
-![ROC Curve](https://i.imgur.com/kP1GgE4.png)
+**(for ROC Curve Plot)**
+![ROC Curve](/data/roc_curve.png)
 
-The model  achieved an **accuracy  95.4%** and an **AUC  0.97**, demonstrating its strong capability for one-shot face verification.
+The model  achieved an **accuracy  95.4%** and an **AUC  0.99**, demonstrating its strong capability for one-shot face verification.
 
 ## 
 
