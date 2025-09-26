@@ -1,4 +1,4 @@
-# Siamese Network for One-Shot Face Verification
+# Siamese Network for One-Shot Face Verification By Zaryab Rahman
 
 ![Architecure](/data/aa.webp) 
 
