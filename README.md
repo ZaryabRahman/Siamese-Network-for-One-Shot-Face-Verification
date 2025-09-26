@@ -126,7 +126,7 @@ To create this embedding space, we use Triplet Loss. The loss function considers
 The loss is designed to "push" the Negative's embedding away from the Anchor's, while "pulling" the Positive's embedding closer, enforcing a `margin` of separation.
 `L(a, p, n) = max( d(a, p)² - d(a, n)² + margin, 0 )`
 
-## 💡 Future Improvements
+## Future Improvements
 
 -   **Hard Triplet Mining**: Implement online hard triplet mining to select the most challenging triplets during training, which can lead to faster convergence and better performance.
 -   **Different Backbones**: Experiment with more modern or lightweight architectures like EfficientNet or MobileNetV3 as the model backbone.
