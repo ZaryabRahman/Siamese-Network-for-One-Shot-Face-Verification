@@ -35,7 +35,7 @@ advanced-siamese-network/
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/advanced-siamese-network.git
+    git clone https://github.com/ZaryabRahman/Siamese-Network-for-One-Shot-Face-Verification
     cd advanced-siamese-network
     ```
 
