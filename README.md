@@ -30,15 +30,8 @@ advanced-siamese-network/
 └── README.md                  # this documentation file
 ```
 
-## 🚀 Getting Started
 
-### 1. Prerequisites
-
--   Python 3.8+
--   PyTorch
--   Access to a terminal or command prompt
-
-### 2. Installation
+### 1. Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -57,7 +50,7 @@ advanced-siamese-network/
     pip install -r requirements.txt
     ```
 
-### 3. Download the Dataset
+### 2. Download the Dataset
 
 -   This project uses the **AT&T Database of Faces**. You can download it from [Kaggle](https://www.kaggle.com/datasets/kasikrit/att-database-of-faces).
 -   Extract the dataset and ensure the directory structure looks like this:
@@ -73,21 +66,21 @@ advanced-siamese-network/
         └── ...
     ```
 
-## 🛠️ Usage
+## How to use this repo
 
 ### 1. Training the Model
 
-To run the full pipeline—from data loading to training, evaluation, and visualization—simply execute the `main.py` script:
+to run the full pipeline—from data loading to training, evaluation, and visualization—simply execute the `main.py` script:
 
 ```bash
 python main.py
 ```
 
-The script will print progress updates to the console, save the best model to `siamese_resnet_model.pth`, and display the loss and ROC curve plots.
+the script will print progress updates to the console, save the best model to `siamese_resnet_model.pth`, and display the loss and ROC curve plots.
 
 ### 2. Monitoring with TensorBoard
 
-While the training is running, you can visualize the loss curves in real-time with TensorBoard:
+while the training is running, you can visualize the loss curves in real-time with TensorBoard:
 
 ```bash
 # In a new terminal, from the project root directory
@@ -106,9 +99,8 @@ python inference.py --img1 "path/to/image_A.jpg" --img2 "path/to/image_B.jpg"
 
 The script will output the computed distance and a prediction of whether the images are of the same person or different people.
 
-## 📊 Expected Results
+## Results
 
-After training, you can expect the model to achieve high performance on the unseen test subjects. The generated plots will look similar to these:
 
 **(Placeholder for Loss History Plot)**
 ![Loss History](https://i.imgur.com/3i4u5rK.png)
@@ -116,9 +108,9 @@ After training, you can expect the model to achieve high performance on the unse
 **(Placeholder for ROC Curve Plot)**
 ![ROC Curve](https://i.imgur.com/kP1GgE4.png)
 
-The model should achieve an **accuracy well above 95%** and an **AUC greater than 0.98**, demonstrating its strong capability for one-shot face verification.
+The model  achieved an **accuracy  95.4%** and an **AUC  0.97**, demonstrating its strong capability for one-shot face verification.
 
-## 🧠 Concepts Explained
+## 
 
 ### Siamese Network
 
