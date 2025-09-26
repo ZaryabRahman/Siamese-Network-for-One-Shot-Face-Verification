@@ -1,6 +1,6 @@
 # Siamese Network for One-Shot Face Verification
 
-![Project Banner](https://user-images.githubusercontent.com/10928923/209424610-41e7df74-a745-4767-876a-3729862955f1.png) <!-- Placeholder banner -->
+![Architecure](/data/a.webp) 
 
 This repository contains a comprehensive, highly-documented, and modular implementation of a Siamese Network in PyTorch for one-shot face verification. The project is designed to be a premier educational resource, demonstrating best practices in deep learning model development, from data handling to evaluation and inference.
 
