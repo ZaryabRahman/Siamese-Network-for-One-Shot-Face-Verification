@@ -4,35 +4,30 @@
 
 This repository contains a comprehensive, highly-documented, and modular implementation of a Siamese Network in PyTorch for one-shot face verification. The project is designed to be a premier educational resource, demonstrating best practices in deep learning model development, from data handling to evaluation and inference.
 
-## 🌟 Key Features
+## Introduction
 
--   **State-of-the-Art Architecture**: Utilizes a **ResNet-18** backbone with transfer learning for powerful feature extraction.
--   **Advanced Loss Function**: Implements **Triplet Loss**, a powerful metric learning technique for creating a discriminative embedding space.
--   **Robust Evaluation**: Performs a strict, **subject-wise dataset split** to ensure the model is evaluated on unseen identities, simulating a true one-shot scenario.
--   **Comprehensive Metrics**: Calculates **Accuracy**, plots the **ROC curve**, and computes the **Area Under the Curve (AUC)** for a thorough performance analysis.
--   **Modular & Clean Code**: The entire project is broken down into logical modules (`config`, `dataset`, `model`, `trainer`, etc.) for maximum readability and maintainability.
--   **Experiment Tracking**: Integrated with **TensorBoard** for real-time visualization of training and validation loss.
--   **Ready-to-Use Inference**: Includes a simple command-line script (`inference.py`) to verify any two face images with the trained model.
+Our project is built around a powerful yet clean design. At its core, it leverages a **ResNet-18 backbone with transfer learning**, ensuring strong feature extraction without unnecessary complexity. To make the embeddings truly discriminative, we employ **Triplet Loss**, a well-established metric learning technique. For fair and realistic evaluation, the dataset is split **subject-wise**, meaning the model is tested on completely unseen identities—closely mirroring real-world one-shot scenarios. Performance isn’t judged lightly either; we report **Accuracy**, plot the **ROC curve**, and compute the **AUC score** for a complete picture of results. The codebase itself is modular and easy to follow, with clear divisions across configuration, dataset handling, modeling, and training. To keep track of experiments, the workflow is integrated with **TensorBoard**, offering real-time insights into training and validation loss. Finally, we’ve included a simple inference script, allowing anyone to quickly test the trained model on two face images and verify its predictions with ease.
 
-## 📂 Project Structure
+
+## Project Structure
 
 The repository is organized into distinct, well-commented modules:
 
 ```
 advanced-siamese-network/
 │
-├── data/                      # Directory for the AT&T Faces dataset
-├── config.py                  # Centralized configuration for all hyperparameters
-├── dataset.py                 # Custom PyTorch Datasets for triplets (training) and pairs (eval)
-├── model.py                   # The SiameseResNet model architecture
-├── loss.py                    # Implementation of the Triplet Loss function
-├── trainer.py                 # The ModelTrainer class for handling training/validation loops
-├── evaluator.py               # The ModelEvaluator class for computing accuracy, ROC, and AUC
-├── visualize.py               # Functions for plotting loss history and ROC curves
-├── main.py                    # The main script to run the entire training and evaluation pipeline
-├── inference.py               # A standalone script for running inference on new images
-├── requirements.txt           # All Python package dependencies
-└── README.md                  # This documentation file
+├── data/                      # directory for the AT&T Faces dataset
+├── config.py                  # centralized configuration for all hyperparameters
+├── dataset.py                 # custom PyTorch Datasets for triplets (training) and pairs (eval)
+├── model.py                   # the SiameseResNet model architecture
+├── loss.py                    # implementation of the Triplet Loss function
+├── trainer.py                 # the ModelTrainer class for handling training/validation loops
+├── evaluator.py               # the ModelEvaluator class for computing accuracy, ROC, and AUC
+├── visualize.py               # functions for plotting loss history and ROC curves
+├── main.py                    # the main script to run the entire training and evaluation pipeline
+├── inference.py               # a standalone script for running inference on new images
+├── requirements.txt           # all Python package dependencies
+└── README.md                  # this documentation file
 ```
 
 ## 🚀 Getting Started
